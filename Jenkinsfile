@@ -6,6 +6,6 @@ node{
 }      
 	stage('mkdir')
 	{
-		dir 'directory'
+		writeFile file:'file',text:'hai hema'
 	}
 }
