@@ -3,9 +3,10 @@ node{
                 dir ('hemachitti'){
                 writeFile file:'dummi', text:''
                 }    
-	stage('createfile')
-	{
+		stage('createfile'){
+			dir ('hemachitti'){
 		writeFile file:'file',text:''
+		}
 	}
 	}
 }
