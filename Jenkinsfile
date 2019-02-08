@@ -19,7 +19,7 @@ node{
 		}
 }
 		stage('disply'){
-		cat file
+		cat file.txt
 		}
 		}
 }
