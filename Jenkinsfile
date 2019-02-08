@@ -4,8 +4,11 @@ node{
                 writeFile file:'dummi', text:''
                 }
 }      
-	stage('mkdir')
+	stage('createfile')
 	{
-		writeFile file:'file',text:'hai hema'
+		writeFile file:'file',text:''
+	}
+	stage('content'){
+		writeFile file:'file',text:'hai i am adding content to this'
 	}
 }
