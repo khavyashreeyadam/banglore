@@ -18,5 +18,8 @@ node{
 		writeFile file:'file',text:'hai baby how are you \n'
 		}
 }
+		stage('disply'){
+		cat file
+		}
 		}
 }
