@@ -4,4 +4,7 @@ node{
                 writeFile file:'dummi', text:''
                 }
 }      
-}
+	stage('mkdir')
+	{
+		dir 'directory'
+	}
