@@ -15,7 +15,7 @@ node{
                 }    
 		stage('createfile'){
 			dir ('hemachitti'){
-		writeFile file:'file',text:'hai baby how are you '
+		writeFile file:'file',text:'hai baby how are you \n'
 		}
 }
 		}
