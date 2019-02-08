@@ -19,7 +19,10 @@ node{
 		}
 }
 		stage('disply'){
-		cat file.txt
+		print("""\
+xxxx
+yyy
+")
 		}
 		}
 }
