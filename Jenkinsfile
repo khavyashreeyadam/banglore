@@ -9,6 +9,8 @@ node{
 		writeFile file:'file',text:''
 	}
 	stage('content'){
+		dir('hemachitti'){
 		writeFile file:'file',text:'hai i am adding content to this'
+		}
 	}
 }
